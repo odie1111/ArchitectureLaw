@@ -1,0 +1,26 @@
+/*.panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: grey;
+}
+
+.panel-heading a.collapsed:after {
+    content: "\e080";
+}*/
+
+.bs-example {
+    margin: 20px;
+}
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+
+}
+
+#exTab1 .tab-content p {
+  color : black;
+  background-color: #fff;
+}
