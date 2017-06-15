@@ -304,8 +304,9 @@
           </div>
           <div class="col-md-offset-3 col-md-9">
             <div id="root">
+              <h1 v-text="chapter"></h1>
               <div v-for="item in law_items">
-                <h3 v-show="item.section" :id="item.id">{{ item.section }}</h3>
+                <h3 v-show="item.section" :id="item.id" class="anchor">{{ item.section }}</h3>
                 <law>
                   <template slot="title">{{ item.title }}</template>
                   <template slot="contents">

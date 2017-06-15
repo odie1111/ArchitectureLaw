@@ -14,7 +14,8 @@ Vue.component('law', {
 var app = new Vue({
     el: '#root',
     data: {
-        law_items: {}
+        law_items: {},
+        chapter: ''
     },
 });
 
@@ -22,5 +23,6 @@ $('.chapter').click(function() {
     var url = 'https://firebasestorage.googleapis.com/v0/b/buildingtechnicalregulations.appspot.com/o/' + $(this).attr('id') + '.json?alt=media';
     $.getJSON(url, function(data){
          app.law_items = data.laws;
+         app.chapter = data.chapter;
     });
 });
