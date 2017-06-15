@@ -1,6 +1,6 @@
 Vue.component('law', {
     template: `
-        <div class="row">
+        <div class="row entries">
             <div class="col-xs-12 col-sm-2">
                 <slot name="title"></slot>
             </div>
@@ -26,3 +26,7 @@ $('.chapter').click(function() {
          app.chapter = data.chapter;
     });
 });
+
+function showLegalInterp(str) {
+    alert(str);
+}

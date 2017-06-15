@@ -33,7 +33,7 @@
     margin: 5px;
     padding: 5px;
     overflow-y: scroll;
-    max-height: 75vh;
+    max-height: 90vh;
 }
 
 .panel-body {
@@ -77,4 +77,13 @@
 
 .anchor {
   padding-top: 60px;
+}
+
+.panel-title {
+  cursor: pointer;
+}
+
+.entries {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
