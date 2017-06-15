@@ -1,325 +1,343 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>建築法條隨手查</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <!-- Bootstrap -->
-    <link href="vendor/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="vendor/css/animate.css" rel="stylesheet" media="screen">
-    <link href="src/css/accordion.css" rel="stylesheet" media="screen">
-  </head>
-  <body class="with-navbar">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">選單切換</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"></a>
-        </div>
-        <!-- 手機隱藏選單區 -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <!-- 左選單 -->
-          <ul class="nav navbar-nav">
-          </ul>
-          <!-- 搜尋表單 -->
-          <form class="navbar-form navbar-right" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="請輸入關鍵字">
-            </div>
-            <button type="submit" class="btn btn-default">搜尋</button>
-          </form>
-          <!-- 右選單 -->
-          <ul class="nav navbar-nav navbar-right">
-          </ul>
-        </div>
-        <!-- 手機隱藏選單區結束 -->
+
+<head>
+  <title>建築法條隨手查</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <!-- Bootstrap -->
+  <link href="vendor/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="vendor/css/animate.css" rel="stylesheet" media="screen">
+  <link href="src/css/accordion.css" rel="stylesheet" media="screen">
+</head>
+
+<body class="with-navbar">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">選單切換</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
       </div>
-    </nav>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="navbar-header col-md-12">
-          <div class="row">
-            <div class="col-md-3 affix sidebar-bg">
-              <div>
-                <h4>建築設計施工編：</h4>
-              </div>
-              <div id="exTab1">
-                <ul class="nav nav-pills">
-                  <li class="active">
-                    <a href="#1a" class="sidebar-tab" data-toggle="tab">1 ~ 10</a>
-                  </li>
-                  <li>
-                    <a href="#2a" class="sidebar-tab" data-toggle="tab">11 ~ 17</a>
-                  </li>
-                </ul>
-                <div class="tab-content clearfix">
-                  <div class="tab-pane active" id="1a">
-                    <div class="panel-group" id="accordion">
-                      <div class="panel panel-default chapter" id="rule1-1">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
+      <!-- 手機隱藏選單區 -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <!-- 左選單 -->
+        <ul class="nav navbar-nav">
+        </ul>
+        <!-- 搜尋表單 -->
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="請輸入關鍵字">
+          </div>
+          <button type="submit" class="btn btn-default">搜尋</button>
+        </form>
+        <!-- 右選單 -->
+        <ul class="nav navbar-nav navbar-right">
+        </ul>
+      </div>
+      <!-- 手機隱藏選單區結束 -->
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="navbar-header col-md-12">
+        <div class="row">
+          <div class="col-md-3 affix sidebar-bg">
+            <div>
+              <h4>建築設計施工編：</h4>
+            </div>
+            <div id="exTab1">
+              <ul class="nav nav-pills">
+                <li class="active">
+                  <a href="#1a" class="sidebar-tab" data-toggle="tab">1 ~ 10</a>
+                </li>
+                <li>
+                  <a href="#2a" class="sidebar-tab" data-toggle="tab">11 ~ 17</a>
+                </li>
+              </ul>
+              <div class="tab-content clearfix">
+                <div class="tab-pane active" id="1a">
+                  <div class="panel-group" id="accordion">
+                    <div class="panel panel-default chapter" id="rule1-1">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1">第一章&nbsp;&nbsp;用語定義</a>
                           </h4>
-                        </div>
-                        <div id="collapse-1" class="panel-collapse collapse">
-                        </div>
                       </div>
-                      <div class="panel panel-default chapter" id="rule1-2">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
+                      <div id="collapse-1" class="panel-collapse collapse">
+                      </div>
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-2">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2">第二章&nbsp;&nbsp;一般設計通則</a>
                           </h4>
-                        </div>
-                        <div id="collapse-2" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            <p><a href="#sec-1">第一節&nbsp;&nbsp;建築基地</a></p>
-                            <p><a href="#sec-2">第二節&nbsp;&nbsp;牆面線、建築物突出部份</a></p>
-                            <p><a href="#sec-3">第三節&nbsp;&nbsp;建築物高度</a></p>
-                            <p><a href="#sec-4">第四節&nbsp;&nbsp;建蔽率</a></p>
-                            <p><a href="#sec-5">第五節&nbsp;&nbsp;容積率</a></p>
-                            <p><a href="#sec-6">第六節&nbsp;&nbsp;地板、天花板</a></p>
-                            <p><a href="#sec-7">第七節&nbsp;&nbsp;樓梯、欄杆、坡道</a></p>
-                            <p><a href="#sec-8">第八節&nbsp;&nbsp;日照、採光、通風</a></p>
-                            <p><a href="#sec-9">第九節&nbsp;&nbsp;防音</a></p>
-                            <p><a href="#sec-10">第十節&nbsp;&nbsp;廁所、污水處理設施</a></p>
-                            <p><a href="#sec-11">第十一節&nbsp;&nbsp;煙囪</a></p>
-                            <p><a href="#sec-12">第十二節&nbsp;&nbsp;昇降及垃圾排除設備</a></p>
-                            <p><a href="#sec-13">第十三節&nbsp;&nbsp;騎樓、無遮簷人行道</a></p>
-                            <p><a href="#sec-14">第十四節&nbsp;&nbsp;停車空間</a></p>
-                          </div>
-                        </div>
                       </div>
-                      <div class="panel panel-default chapter" id="rule1-3">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-3">第三章&nbsp;&nbsp;建築物之防火</a>
-                          </h4>
-                        </div>
-                        <div id="collapse-3" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            <p><a href="#sec-1">第一節&nbsp;&nbsp;適用範圍</a></p>
-                            <p><a href="#sec-2">第二節&nbsp;&nbsp;雜項工作物之防火限制</a></p>
-                            <p><a href="#sec-3">第三節&nbsp;&nbsp;防火構造</a></p>
-                            <p><a href="#sec-4">第四節&nbsp;&nbsp;防火區劃</a></p>
-                            <p><a href="#sec-5">第五節&nbsp;&nbsp;內部裝修限制</a></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="panel panel-default chapter" id="rule1-4">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-4">第四章&nbsp;&nbsp;防火避難設施及消防設備</a>
-                          </h4>
-                        </div>
-                        <div id="collapse-4" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            <p><a href="#sec-1">第一節&nbsp;&nbsp;出入口、走廊、樓梯</a></p>
-                            <p><a href="#sec-2">第二節&nbsp;&nbsp;排煙設備</a></p>
-                            <p><a href="#sec-3">第三節&nbsp;&nbsp;緊急照明設備</a></p>
-                            <p><a href="#sec-4">第四節&nbsp;&nbsp;緊急用昇降機</a></p>
-                            <p><a href="#sec-5">第五節&nbsp;&nbsp;緊急進口設備</a></p>
-                            <p><a href="#sec-6">第六節&nbsp;&nbsp;防火間隔</a></p>
-                            <p><a href="#sec-7">第七節&nbsp;&nbsp;消防設備</a></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="panel panel-default chapter" id="rule1-4-1">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-4-1">第四章之一&nbsp;&nbsp;建築物安全維護設計</a>
-                          </h4>
-                        </div>
-                        <div id="collapse-4-1" class="panel-collapse collapse">
-                        </div>
-                      </div>
-                      <div class="panel panel-default chapter" id="rule1-5">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-5">第五章&nbsp;&nbsp;特定建築物及其限制</a>
-                          </h4>
-                        </div>
-                        <div id="collapse-5" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            <p><a href="#sec-1">第一節&nbsp;&nbsp;通則</a></p>
-                            <p><a href="#sec-2">第二節&nbsp;&nbsp;戲院、電影院、歌廳、演藝場及集會堂</a></p>
-                            <p><a href="#sec-3">第三節&nbsp;&nbsp;商場、餐廳、市場</a></p>
-                            <p><a href="#sec-4">第四節&nbsp;&nbsp;學校</a></p>
-                            <p><a href="#sec-5">第五節&nbsp;&nbsp;車庫、車輛修理場所、洗車場、汽車站房、汽車商場</a></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="panel panel-default chapter" id="rule1-6">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-6">第六章&nbsp;&nbsp;防空避難設備</a>
-                          </h4>
-                        </div>
-                        <div id="collapse-6" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            <p><a href="#sec-1">第一節&nbsp;&nbsp;通則</a></p>
-                            <p><a href="#sec-2">第二節&nbsp;&nbsp;設計及構造概要</a></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="panel panel-default chapter" id="rule1-7">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-7">第七章&nbsp;&nbsp;雜項工作物</a>
-                          </h4>
-                        </div>
-                        <div id="collapse-7" class="panel-collapse collapse">
-                        </div>
-                      </div>
-                      <div class="panel panel-default chapter" id="rule1-8">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-8">第八章&nbsp;&nbsp;施工安全措施</a>
-                          </h4>
-                        </div>
-                        <div id="collapse-8" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            <p><a href="#sec-1">第一節&nbsp;&nbsp;通則</a></p>
-                            <p><a href="#sec-2">第二節&nbsp;&nbsp;防護範圍</a></p>
-                            <p><a href="#sec-3">第三節&nbsp;&nbsp;擋土設備安全措施</a></p>
-                            <p><a href="#sec-4">第四節&nbsp;&nbsp;施工架、工作台、走道</a></p>
-                            <p><a href="#sec-5">第五節&nbsp;&nbsp;按裝及材料之堆積</a></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="panel panel-default chapter" id="rule1-9">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-9">第九章&nbsp;&nbsp;容積設計</a>
-                          </h4>
-                        </div>
-                        <div id="collapse-9" class="panel-collapse collapse">
-                        </div>
-                      </div>
-                      <div class="panel panel-default chapter" id="rule1-10">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-10">第十章&nbsp;&nbsp;無障礙建築物</a>
-                          </h4>
-                        </div>
-                        <div id="collapse-10" class="panel-collapse collapse">
+                      <div id="collapse-2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p><a href="#sec-1">第一節&nbsp;&nbsp;建築基地</a></p>
+                          <p><a href="#sec-2">第二節&nbsp;&nbsp;牆面線、建築物突出部份</a></p>
+                          <p><a href="#sec-3">第三節&nbsp;&nbsp;建築物高度</a></p>
+                          <p><a href="#sec-4">第四節&nbsp;&nbsp;建蔽率</a></p>
+                          <p><a href="#sec-5">第五節&nbsp;&nbsp;容積率</a></p>
+                          <p><a href="#sec-6">第六節&nbsp;&nbsp;地板、天花板</a></p>
+                          <p><a href="#sec-7">第七節&nbsp;&nbsp;樓梯、欄杆、坡道</a></p>
+                          <p><a href="#sec-8">第八節&nbsp;&nbsp;日照、採光、通風</a></p>
+                          <p><a href="#sec-9">第九節&nbsp;&nbsp;防音</a></p>
+                          <p><a href="#sec-10">第十節&nbsp;&nbsp;廁所、污水處理設施</a></p>
+                          <p><a href="#sec-11">第十一節&nbsp;&nbsp;煙囪</a></p>
+                          <p><a href="#sec-12">第十二節&nbsp;&nbsp;昇降及垃圾排除設備</a></p>
+                          <p><a href="#sec-13">第十三節&nbsp;&nbsp;騎樓、無遮簷人行道</a></p>
+                          <p><a href="#sec-14">第十四節&nbsp;&nbsp;停車空間</a></p>
                         </div>
                       </div>
                     </div>
+                    <div class="panel panel-default chapter" id="rule1-3">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-3">第三章&nbsp;&nbsp;建築物之防火</a>
+                          </h4>
+                      </div>
+                      <div id="collapse-3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p><a href="#sec-1">第一節&nbsp;&nbsp;適用範圍</a></p>
+                          <p><a href="#sec-2">第二節&nbsp;&nbsp;雜項工作物之防火限制</a></p>
+                          <p><a href="#sec-3">第三節&nbsp;&nbsp;防火構造</a></p>
+                          <p><a href="#sec-4">第四節&nbsp;&nbsp;防火區劃</a></p>
+                          <p><a href="#sec-5">第五節&nbsp;&nbsp;內部裝修限制</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-4">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-4">第四章&nbsp;&nbsp;防火避難設施及消防設備</a>
+                          </h4>
+                      </div>
+                      <div id="collapse-4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p><a href="#sec-1">第一節&nbsp;&nbsp;出入口、走廊、樓梯</a></p>
+                          <p><a href="#sec-2">第二節&nbsp;&nbsp;排煙設備</a></p>
+                          <p><a href="#sec-3">第三節&nbsp;&nbsp;緊急照明設備</a></p>
+                          <p><a href="#sec-4">第四節&nbsp;&nbsp;緊急用昇降機</a></p>
+                          <p><a href="#sec-5">第五節&nbsp;&nbsp;緊急進口設備</a></p>
+                          <p><a href="#sec-6">第六節&nbsp;&nbsp;防火間隔</a></p>
+                          <p><a href="#sec-7">第七節&nbsp;&nbsp;消防設備</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-4-1">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-4-1">第四章之一&nbsp;&nbsp;建築物安全維護設計</a>
+                          </h4>
+                      </div>
+                      <div id="collapse-4-1" class="panel-collapse collapse">
+                      </div>
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-5">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-5">第五章&nbsp;&nbsp;特定建築物及其限制</a>
+                          </h4>
+                      </div>
+                      <div id="collapse-5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p><a href="#sec-1">第一節&nbsp;&nbsp;通則</a></p>
+                          <p><a href="#sec-2">第二節&nbsp;&nbsp;戲院、電影院、歌廳、演藝場及集會堂</a></p>
+                          <p><a href="#sec-3">第三節&nbsp;&nbsp;商場、餐廳、市場</a></p>
+                          <p><a href="#sec-4">第四節&nbsp;&nbsp;學校</a></p>
+                          <p><a href="#sec-5">第五節&nbsp;&nbsp;車庫、車輛修理場所、洗車場、汽車站房、汽車商場</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-6">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-6">第六章&nbsp;&nbsp;防空避難設備</a>
+                          </h4>
+                      </div>
+                      <div id="collapse-6" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p><a href="#sec-1">第一節&nbsp;&nbsp;通則</a></p>
+                          <p><a href="#sec-2">第二節&nbsp;&nbsp;設計及構造概要</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-7">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-7">第七章&nbsp;&nbsp;雜項工作物</a>
+                          </h4>
+                      </div>
+                      <div id="collapse-7" class="panel-collapse collapse">
+                      </div>
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-8">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-8">第八章&nbsp;&nbsp;施工安全措施</a>
+                          </h4>
+                      </div>
+                      <div id="collapse-8" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p><a href="#sec-1">第一節&nbsp;&nbsp;通則</a></p>
+                          <p><a href="#sec-2">第二節&nbsp;&nbsp;防護範圍</a></p>
+                          <p><a href="#sec-3">第三節&nbsp;&nbsp;擋土設備安全措施</a></p>
+                          <p><a href="#sec-4">第四節&nbsp;&nbsp;施工架、工作台、走道</a></p>
+                          <p><a href="#sec-5">第五節&nbsp;&nbsp;按裝及材料之堆積</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-9">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-9">第九章&nbsp;&nbsp;容積設計</a>
+                          </h4>
+                      </div>
+                      <div id="collapse-9" class="panel-collapse collapse">
+                      </div>
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-10">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-10">第十章&nbsp;&nbsp;無障礙建築物</a>
+                          </h4>
+                      </div>
+                      <div id="collapse-10" class="panel-collapse collapse">
+                      </div>
+                    </div>
                   </div>
-                  <div class="tab-pane" id="2a">
-                    <div class="panel-group" id="accordion-2">
-                      <div class="panel panel-default chapter" id="rule1-11">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
+                </div>
+                <div class="tab-pane" id="2a">
+                  <div class="panel-group" id="accordion-2">
+                    <div class="panel panel-default chapter" id="rule1-11">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
                           <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-11">第十一章&nbsp;&nbsp;地下建築物</a>
                           </h4>
-                        </div>
-                        <div id="collapse-11" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            <p><a href="#sec-1">第一節&nbsp;&nbsp;一般設計通則</a></p>
-                            <p><a href="#sec-2">第二節&nbsp;&nbsp;建築構造</a></p>
-                            <p><a href="#sec-3">第三節&nbsp;&nbsp;建築物之防火</a></p>
-                            <p><a href="#sec-4">第四節&nbsp;&nbsp;防火避難設施及消防設備</a></p>
-                            <p><a href="#sec-5">第五節&nbsp;&nbsp;空氣調節及通風設備</a></p>
-                            <p><a href="#sec-6">第六節&nbsp;&nbsp;環境衛生及其他</a></p>
-                          </div>
+                      </div>
+                      <div id="collapse-11" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p><a href="#sec-1">第一節&nbsp;&nbsp;一般設計通則</a></p>
+                          <p><a href="#sec-2">第二節&nbsp;&nbsp;建築構造</a></p>
+                          <p><a href="#sec-3">第三節&nbsp;&nbsp;建築物之防火</a></p>
+                          <p><a href="#sec-4">第四節&nbsp;&nbsp;防火避難設施及消防設備</a></p>
+                          <p><a href="#sec-5">第五節&nbsp;&nbsp;空氣調節及通風設備</a></p>
+                          <p><a href="#sec-6">第六節&nbsp;&nbsp;環境衛生及其他</a></p>
                         </div>
                       </div>
-                      <div class="panel panel-default chapter" id="rule1-12">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-12">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
                           <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-12">第十二章&nbsp;&nbsp;高層建築物</a>
                           </h4>
-                        </div>
-                        <div id="collapse-12" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            <p><a href="#sec-1">第一節&nbsp;&nbsp;一般設計通則</a></p>
-                            <p><a href="#sec-2">第二節&nbsp;&nbsp;建築構造</a></p>
-                            <p><a href="#sec-3">第三節&nbsp;&nbsp;防火避難設施</a></p>
-                            <p><a href="#sec-4">第四節&nbsp;&nbsp;建築設備</a></p>
-                          </div>
+                      </div>
+                      <div id="collapse-12" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p><a href="#sec-1">第一節&nbsp;&nbsp;一般設計通則</a></p>
+                          <p><a href="#sec-2">第二節&nbsp;&nbsp;建築構造</a></p>
+                          <p><a href="#sec-3">第三節&nbsp;&nbsp;防火避難設施</a></p>
+                          <p><a href="#sec-4">第四節&nbsp;&nbsp;建築設備</a></p>
                         </div>
                       </div>
-                      <div class="panel panel-default chapter" id="rule1-13">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-13">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
                           <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-13">第十三章&nbsp;&nbsp;山坡地建築</a>
                           </h4>
-                        </div>
-                        <div id="collapse-13" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            <p><a href="#sec-1">第一節&nbsp;&nbsp;山坡地基地不得開發建築認定基準</a></p>
-                            <p><a href="#sec-2">第二節&nbsp;&nbsp;設計原則</a></p>
-                          </div>
+                      </div>
+                      <div id="collapse-13" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p><a href="#sec-1">第一節&nbsp;&nbsp;山坡地基地不得開發建築認定基準</a></p>
+                          <p><a href="#sec-2">第二節&nbsp;&nbsp;設計原則</a></p>
                         </div>
                       </div>
-                      <div class="panel panel-default chapter" id="rule1-14">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-14">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
                           <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-14">第十四章&nbsp;&nbsp;工廠類建築物</a>
                           </h4>
-                        </div>
-                        <div id="collapse-14" class="panel-collapse collapse">
-                        </div>
                       </div>
-                      <div class="panel panel-default chapter" id="rule1-15">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
+                      <div id="collapse-14" class="panel-collapse collapse">
+                      </div>
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-15">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
                           <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-15">第十五章&nbsp;&nbsp;實施都市計畫地區建築基地綜合設計</a>
                           </h4>
-                        </div>
-                        <div id="collapse-15" class="panel-collapse collapse">
-                        </div>
                       </div>
-                      <div class="panel panel-default chapter" id="rule1-16">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
+                      <div id="collapse-15" class="panel-collapse collapse">
+                      </div>
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-16">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
                           <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-16">第十六章&nbsp;&nbsp;老人住宅</a>
                           </h4>
-                        </div>
-                        <div id="collapse-16" class="panel-collapse collapse">
-                        </div>
                       </div>
-                      <div class="panel panel-default chapter" id="rule1-17">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
+                      <div id="collapse-16" class="panel-collapse collapse">
+                      </div>
+                    </div>
+                    <div class="panel panel-default chapter" id="rule1-17">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
                           <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse-17">第十七章&nbsp;&nbsp;綠建築基準</a>
                           </h4>
-                        </div>
-                        <div id="collapse-17" class="panel-collapse collapse">
-                        </div>
+                      </div>
+                      <div id="collapse-17" class="panel-collapse collapse">
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-offset-3 col-md-9">
-              <div id="root">
-                <div v-for="item in law_items">
-                  <h3 v-show="item.section" :id="item.id">{{ item.section }}</h3>
-                  <law>
-                    <template slot="title">{{ item.title }}</template>
-                    <template slot="contents">
-                      <div v-for="line in item.contents">{{ line }}</div>
-                    </template>
-                  </law>
-                </div>
+          </div>
+          <div class="col-md-offset-3 col-md-9">
+            <div id="root">
+              <div v-for="item in law_items">
+                <h3 v-show="item.section" :id="item.id">{{ item.section }}</h3>
+                <law>
+                  <template slot="title">{{ item.title }}</template>
+                  <template slot="contents">
+                    <div v-for="line in item.contents">{{ line }}</div>
+                  </template>
+                </law>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    </div>
-    <script src="vendor/js/jquery-3.2.1.min.js"></script>
-    <script src="vendor/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/vue"></script>
-    <script src="src/js/main.js"></script>
-  </body>
+  </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+  <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAkN_6f0NQMmN_W4p_3C_ScX4iS1wwnqs4",
+    authDomain: "*",
+    databaseURL: "https://buildingtechnicalregulations.firebaseio.com",
+    projectId: "buildingtechnicalregulations",
+    storageBucket: "buildingtechnicalregulations.appspot.com",
+    messagingSenderId: "846417726205"
+  };
+  firebase.initializeApp(config);
+  var storage = firebase.storage();
+  </script>
+  <script src="vendor/js/jquery-3.2.1.min.js"></script>
+  <script src="vendor/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="src/js/main.js"></script>
+</body>
+
 </html>
