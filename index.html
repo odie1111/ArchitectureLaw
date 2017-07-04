@@ -290,7 +290,20 @@
                   <template slot="contents">
                     <div v-for="line in item.contents">{{ line }}</div>
                     <div v-if="item.title">
-                      <button :id="item.title" onclick="showLegalInterp(this.id)">相關函令</button>
+                      <button :id="item.title" @click="openLetterModal($event)">相關函令</button>
+                      <letter-modal v-if="showModal" @close="showModal = false">
+                        <h3 slot="header">{{ letter_item.law }}</h3>
+                        <template slot="entries">
+                          <div v-for="entry in letter_item.letters">{{entry.entries}}</div>
+                        </template>
+                        <template slot="content">
+                          <div v-for="entry in letter_item.letters">
+                            <div v-for="line in entry.content">
+                            {{line}}
+                            </div>
+                          </div>
+                        </template>
+                      </letter-modal>
                     </div>
                   </template>
                 </law>
