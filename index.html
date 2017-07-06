@@ -9,6 +9,7 @@
   <link href="vendor/css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="vendor/css/animate.css" rel="stylesheet" media="screen">
   <link href="src/css/accordion.css" rel="stylesheet" media="screen">
+  <link href="src/css/style.css" rel="stylesheet" media="screen">
 </head>
 
 <body class="with-navbar">
@@ -288,26 +289,29 @@
                 <law>
                   <template slot="title">{{ item.title }}</template>
                   <template slot="contents">
-                    <div v-for="line in item.contents">{{ line }}</div>
+                    <div v-for="law_line in item.contents">{{ law_line }}</div>
                     <div v-if="item.title">
                       <button :id="item.title" @click="openLetterModal($event)">相關函令</button>
-                      <letter-modal v-if="showModal" @close="showModal = false">
-                        <h3 slot="header">{{ letter_item.law }}</h3>
-                        <template slot="entries">
-                          <div v-for="entry in letter_item.letters">{{entry.entries}}</div>
-                        </template>
-                        <template slot="content">
-                          <div v-for="entry in letter_item.letters">
-                            <div v-for="line in entry.content">
-                            {{line}}
-                            </div>
-                          </div>
-                        </template>
-                      </letter-modal>
                     </div>
                   </template>
                 </law>
               </div>
+              <letter-modal id="letter-modal" v-if="showModal" @close="showModal = false">
+                <h3 slot="header">{{ letter_item.law }}</h3>
+                <template slot="entries" class="box">
+                  <div v-for="(entry, count) in letter_item.letters" class="letter-title">
+                    <a :href="'#letter' + count">{{ entry.entries }}</a></h4>
+                  </div>
+                </template>
+                <template slot="contents">
+                  <div v-for="(entry, count) in letter_item.letters" class="letter-content":id="'letter'+count">
+                    <strong>{{ entry.entries }}</strong>
+                    <div v-for="letter_line in entry.contents">
+                      {{ letter_line }}
+                    </div>
+                  </div>
+                </template>
+              </letter-modal>
             </div>
           </div>
         </div>

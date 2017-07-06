@@ -79,6 +79,10 @@
   padding-top: 60px;
 }
 
+.modal-anchor {
+    padding-top: 10px;
+}
+
 .panel-title {
   cursor: pointer;
 }
@@ -107,7 +111,7 @@
 
 .modal-container {
   width: 80%;
-  max-height: 70%;
+  height: 80vh;
   margin: 0px auto;
   padding: 20px 30px;
   background-color: #fff;
@@ -123,7 +127,7 @@
 }
 
 .modal-body {
-  margin: 20px 0;
+  height:55vh;
 }
 
 .modal-default-button {
